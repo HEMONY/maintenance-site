@@ -3,13 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الموقع تحت الصيانة | Under Maintenance</title>
+    <title>منفذ تحت الصيانة | Under Maintenance</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔧</text></svg>">
+    
+    <!-- Font Awesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://img.icons8.com/color/96/000000/engineer.png">
+    
+    <!-- لأي مشكلة في الأيقونات، نضيف fallback -->
+    <style>
+        /* Fallback في حالة عدم تحميل Font Awesome */
+        .fa-cog:before { content: "⚙"; }
+        .fa-hammer:before { content: "🔨"; }
+        .fa-clock:before { content: "⏰"; }
+        .fa-calendar-alt:before { content: "📅"; }
+        .fa-paper-plane:before { content: "✈"; }
+        .fa-tools:before { content: "🛠"; }
+        .fa-hourglass-half:before { content: "⏳"; }
+        .fa-telegram-plane:before { content: "📨"; }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -107,3 +126,4 @@
     <script src="script.js"></script>
 </body>
 </html>
+
