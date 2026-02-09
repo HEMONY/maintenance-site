@@ -1,4 +1,35 @@
 /* Reset & Base Styles */
+/* إصلاحات لعرض الأيقونات */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+/* التأكد من أن الأيقونات تظهر */
+i {
+    font-style: normal;
+    display: inline-block;
+}
+
+.fas, .fab {
+    font-family: 'Font Awesome 6 Free' !important;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* تحسين عرض الترانسفورميشن */
+.gear, .hammer {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* إصلاح التروس */
+.gear i, .hammer i {
+    font-size: inherit !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 * {
     margin: 0;
     padding: 0;
@@ -428,3 +459,4 @@ h2 {
         font-size: 1.8rem;
     }
 }
+
