@@ -3,14 +3,16 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 
 // Set return date (3 days from now)
 const returnDate = new Date();
-returnDate.setDate(returnDate.getDate() + 3);
+returnDate.setDate(returnDate.getDate() + 7); // أسبوع واحد
+//returnDate.setDate(returnDate.getDate() + 3);
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 document.getElementById('return-date').textContent = returnDate.toLocaleDateString('ar-SA', options);
 
 // Countdown Timer
 function updateCountdown() {
     const now = new Date().getTime();
-    const targetDate = returnDate.getTime();
+    const targetDate = new Date();
+    targetDate.setDate(targetDate.getDate() + 7); // أسبوع واحد
     const timeLeft = targetDate - now;
     
     if (timeLeft < 0) {
