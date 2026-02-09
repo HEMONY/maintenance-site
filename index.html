@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموقع تحت الصيانة | Under Maintenance</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔧</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <div class="maintenance-card">
+            <!-- Animation -->
+            <div class="animation-container">
+                <div class="gear gear1">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="gear gear2">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="gear gear3">
+                    <i class="fas fa-cog"></i>
+                </div>
+                <div class="hammer">
+                    <i class="fas fa-hammer"></i>
+                </div>
+            </div>
+            
+            <!-- Content -->
+            <div class="content">
+                <h1><i class="fas fa-tools"></i> الموقع تحت الصيانة</h1>
+                <h2>Under Maintenance</h2>
+                
+                <p class="description">
+                    نقوم حاليًا بإجراء تحسينات وتحديثات على الموقع لتقديم تجربة أفضل لكم.
+                    نحن نعمل بجد لإكمال العمل في أقرب وقت ممكن.
+                </p>
+                
+                <div class="info-box">
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>الوقت المتوقع:</h3>
+                            <p>٤٨ - ٧٢ ساعة</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h3>تاريخ العودة:</h3>
+                            <p id="return-date"></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>للتواصل الطارئ:</h3>
+                            <p>info@yourdomain.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="progress-container">
+                    <div class="progress-label">
+                        <span>تقدّم العمل</span>
+                        <span id="progress-percentage">65%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progress-fill"></div>
+                    </div>
+                </div>
+                
+                <div class="countdown">
+                    <h3><i class="fas fa-hourglass-half"></i> العد التنازلي للانتهاء:</h3>
+                    <div class="countdown-timer">
+                        <div class="time-unit">
+                            <span id="days">02</span>
+                            <small>أيام</small>
+                        </div>
+                        <div class="time-separator">:</div>
+                        <div class="time-unit">
+                            <span id="hours">12</span>
+                            <small>ساعات</small>
+                        </div>
+                        <div class="time-separator">:</div>
+                        <div class="time-unit">
+                            <span id="minutes">45</span>
+                            <small>دقائق</small>
+                        </div>
+                        <div class="time-separator">:</div>
+                        <div class="time-unit">
+                            <span id="seconds">30</span>
+                            <small>ثواني</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <p>تابعنا على:</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-icon linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer">
+                    <p>© 2024 جميع الحقوق محفوظة | <span id="current-year"></span></p>
+                    <p class="sub-text">شكرًا لتفهمكم وصبركم</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
