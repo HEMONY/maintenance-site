@@ -39,7 +39,7 @@ i {
 body {
     font-family: 'Tajawal', sans-serif;
     background: linear-gradient(135deg, #ffffff 0%, #f0fff0 100%); /* أبيض/أخضر فاتح */
-    color: #2e7d32; /* أخضر داكن للنص */
+    color: #05042d; /* أخضر داكن للنص */
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@ body {
     padding: 40px;
     box-shadow: 0 20px 60px rgba(46, 125, 50, 0.1); /* ظل أخضر خفيف */
     backdrop-filter: blur(10px);
-    border: 2px solid #4caf50; /* حدود خضراء */
+    border: 2px solid #05042d; /* حدود خضراء */
     position: relative;
     overflow: hidden;
 }
@@ -80,7 +80,7 @@ body {
 .gear {
     position: absolute;
     font-size: 80px;
-    color: #4caf50; /* أخضر للتروس */
+    color: #05042d; /* أخضر للتروس */
     opacity: 0.8;
 }
 
@@ -95,7 +95,7 @@ body {
     bottom: 20px;
     right: 20px;
     font-size: 60px;
-    color: #2e7d32; /* أخضر داكن */
+    color: #05042d; /* أخضر داكن */
 }
 
 .gear3 {
@@ -103,7 +103,7 @@ body {
     top: 60px;
     right: 60px;
     font-size: 50px;
-    color: #388e3c; /* أخضر متوسط */
+    color: #05042d; /* أخضر متوسط */
 }
 
 .hammer {
@@ -135,7 +135,7 @@ body {
 }
 
 h1 {
-    color: #2e7d32; /* أخضر داكن */
+    color: #05042d; /* أخضر داكن */
     font-size: 2.8rem;
     margin-bottom: 10px;
     display: flex;
@@ -145,7 +145,7 @@ h1 {
 }
 
 h1 i {
-    color: #4caf50; /* أخضر */
+    color: #05042d; /* أخضر */
     font-size: 2.5rem;
 }
 
@@ -182,19 +182,19 @@ h2 {
     align-items: center;
     gap: 20px;
     text-align: right;
-    border-left: 5px solid #4caf50; /* حدود خضراء */
+    border-left: 5px solid #05042d; /* حدود خضراء */
     transition: transform 0.3s ease;
 }
 
 .info-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(76, 175, 80, 0.2); /* ظل أخضر */
-    border-left: 5px solid #2e7d32; /* حدود أغمق عند hover */
+    border-left: 5px solid #05042d; /* حدود أغمق عند hover */
 }
 
 .info-item i {
     font-size: 2.5rem;
-    color: #4caf50; /* أخضر للأيقونات */
+    color: #05042d; /* أخضر للأيقونات */
     min-width: 50px;
 }
 
@@ -205,7 +205,7 @@ h2 {
 }
 
 .info-item p {
-    color: #2e7d32; /* أخضر داكن للنص */
+    color: #05042d; /* أخضر داكن للنص */
     font-size: 1.2rem;
     font-weight: 700;
 }
@@ -224,7 +224,7 @@ h2 {
     justify-content: space-between;
     margin-bottom: 15px;
     font-size: 1.1rem;
-    color: #2e7d32; /* أخضر داكن */
+    color: #05042d; /* أخضر داكن */
     font-weight: 700;
 }
 
@@ -238,7 +238,7 @@ h2 {
 
 .progress-fill {
     height: 100%;
-    background: linear-gradient(90deg, #4caf50, #81c784); /* تدرج أخضر */
+    background: linear-gradient(90deg, #05042d, #81c784); /* تدرج أخضر */
     width: 65%;
     border-radius: 10px;
     animation: progress-animation 2s ease-in-out infinite alternate;
@@ -246,11 +246,11 @@ h2 {
 
 @keyframes progress-animation {
     from { 
-        background: linear-gradient(90deg, #4caf50, #81c784);
+        background: linear-gradient(90deg, #05042d, #81c784);
         opacity: 0.9; 
     }
     to { 
-        background: linear-gradient(90deg, #81c784, #a5d6a7);
+        background: linear-gradient(90deg, #05042d, #a5d6a7);
         opacity: 1; 
     }
 }
@@ -258,11 +258,11 @@ h2 {
 /* Countdown */
 .countdown {
     background: linear-gradient(135deg, #ffffff 0%, #e8f5e9 100%); /* أبيض/أخضر فاتح */
-    color: #2e7d32; /* أخضر داكن للنص */
+    color: #05042d; /* أخضر داكن للنص */
     padding: 30px;
     border-radius: 15px;
     margin-bottom: 40px;
-    border: 2px solid #4caf50; /* حدود خضراء */
+    border: 2px solid #05042d; /* حدود خضراء */
 }
 
 .countdown h3 {
@@ -272,7 +272,7 @@ h2 {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    color: #2e7d32;
+    color: #05042d;
 }
 
 .countdown-timer {
@@ -290,15 +290,15 @@ h2 {
     border-radius: 10px;
     min-width: 100px;
     backdrop-filter: blur(5px);
-    border: 2px solid #4caf50; /* حدود خضراء */
-    color: #2e7d32;
+    border: 2px solid #05042d; /* حدود خضراء */
+    color: #05042d;
 }
 
 .time-unit span {
     font-size: 3rem;
     display: block;
     margin-bottom: 5px;
-    color: #2e7d32;
+    color: #05042d;
 }
 
 .time-unit small {
@@ -310,7 +310,7 @@ h2 {
 
 .time-separator {
     font-size: 2.5rem;
-    color: #4caf50; /* أخضر للفاصلة */
+    color: #05042d; /* أخضر للفاصلة */
     margin-bottom: 25px;
 }
 
@@ -342,13 +342,13 @@ h2 {
     font-size: 1.5rem;
     transition: all 0.3s ease;
     text-decoration: none;
-    background: #4caf50; /* خلفية خضراء افتراضية */
+    background: #05042d; /* خلفية خضراء افتراضية */
 }
 
 .social-icon:hover {
     transform: scale(1.1) translateY(-5px);
     box-shadow: 0 10px 20px rgba(76, 175, 80, 0.3);
-    background: #2e7d32; /* أخضر داكن عند hover */
+    background: #05042d; /* أخضر داكن عند hover */
 }
 
 /* إضافة أيقونة تلغرام خاصة */
@@ -364,7 +364,7 @@ h2 {
 .footer {
     border-top: 2px solid #e8f5e9; /* حدود خضراء فاتحة */
     padding-top: 25px;
-    color: #2e7d32; /* أخضر داكن */
+    color: #05042d; /* أخضر داكن */
 }
 
 .footer p {
@@ -373,7 +373,7 @@ h2 {
 }
 
 .sub-text {
-    color: #4caf50; /* أخضر متوسط */
+    color: #05042d; /* أخضر متوسط */
     font-size: 1rem !important;
 }
 
